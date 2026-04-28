@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Forma — Architecture & Design</title>
+  <meta name="description" content="Studio Forma — A design practice for architecture, interiors, and the built environment." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+<!-- CURSOR -->
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-logo">
+    <div class="loader-mark">
+      <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Animated architectural logo mark -->
+        <line class="mark-line" x1="10" y1="50" x2="30" y2="10" stroke="#c8a97e" stroke-width="1.5"/>
+        <line class="mark-line" x1="30" y1="10" x2="50" y2="50" stroke="#c8a97e" stroke-width="1.5"/>
+        <line class="mark-line" x1="18" y1="36" x2="42" y2="36" stroke="#c8a97e" stroke-width="1.5"/>
+      </svg>
+    </div>
+    <div class="loader-wordmark"><span>Studio Forma</span></div>
+    <div class="loader-tagline"><span>Architecture &amp; Design</span></div>
+  </div>
+  <div class="loader-progress"><div class="loader-progress-bar"></div></div>
+</div>
+
+<!-- NAVIGATION -->
+<nav>
+  <a href="index.html" class="nav-logo">
+    <svg class="nav-logo-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <line x1="5" y1="27" x2="16" y2="5" stroke="#c8a97e" stroke-width="1.2"/>
+      <line x1="16" y1="5" x2="27" y2="27" stroke="#c8a97e" stroke-width="1.2"/>
+      <line x1="9.5" y1="19" x2="22.5" y2="19" stroke="#c8a97e" stroke-width="1.2"/>
+    </svg>
+    <span class="nav-logo-text">Studio Forma</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Portfolio</a></li>
+    <li><a href="pages/office.html">Office</a></li>
+    <li><a href="pages/contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1800&q=85" alt="Architecture Hero" loading="eager" />
+  </div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Est. 2012 · New York</p>
+    <h1 class="hero-title">Architecture<br>as <em>Narrative</em></h1>
+    <p class="hero-subtitle">We design spaces that hold memory, invite contemplation, and connect people to the fundamental qualities of light, material, and place.</p>
+    <a href="#projects" class="hero-cta">
+      View Portfolio
+      <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 5h14M10 1l4 4-4 4" stroke="currentColor" stroke-width="1.2"/></svg>
+    </a>
+  </div>
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    <span class="hero-scroll-text">Scroll</span>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header">
+    <div>
+      <p class="section-label">Selected Works</p>
+      <h2 class="section-title">Our <em>Portfolio</em></h2>
+    </div>
+    <span class="section-count">09 Projects</span>
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- Project 1 -->
+    <a href="pages/project-verdana.html" class="project-card reveal">
+      <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1200&q=80" alt="Verdana House" loading="lazy"/>
+      <div class="project-card-overlay">
+        <div class="project-card-meta">
+          <span class="project-card-type">Residential</span>
+          <span class="project-card-year">· 2024</span>
+        </div>
+        <h3>Verdana House</h3>
+        <p class="project-card-location">Hudson Valley, NY</p>
+      </div>
+      <div class="project-card-arrow">
+        <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5h12M8 1l4 4-4 4" stroke="#c8a97e" stroke-width="1.2"/></svg>
+      </div>
+    </a>
+
+    <!-- Project 2 -->
+    <a href="pages/project-meridian.html" class="project-card reveal reveal-delay-1">
+      <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80" alt="Meridian Loft" loading="lazy"/>
+      <div class="project-card-overlay">
+        <div class="project-card-meta">
+          <span class="project-card-type">Interior</span>
+          <span class="project-card-year">· 2023</span>
+        </div>
+        <h3>Meridian Loft</h3>
+        <p class="project-card-location">New York, NY</p>
+      </div>
+      <div class="project-card-arrow">
+        <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5h12M8 1l4 4-4 4" stroke="#c8a97e" stroke-width="1.2"/></svg>
+      </div>
+    </a>
+
+    <!-- Project 3 -->
+    <a href="pages/project-pacific.html" class="project-card reveal">
+      <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80" alt="Pacific Ridge" loading="lazy"/>
+      <div class="project-card-overlay">
+        <div class="project-card-meta">
+          <span class="project-card-type">Cultural</span>
+          <span class="project-card-year">· 2023</span>
+        </div>
+        <h3>Pacific Ridge</h3>
+        <p class="project-card-location">San Diego, CA</p>
+      </div>
+      <div class="project-card-arrow">
+        <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5h12M8 1l4 4-4 4" stroke="#c8a97e" stroke-width="1.2"/></svg>
+      </div>
+    </a>
+
+    <!-- Project 4 -->
+    <a href="pages/project-canyon.html" class="project-card reveal reveal-delay-1">
+      <img src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?w=1200&q=80" alt="Canyon Residence" loading="lazy"/>
+      <div class="project-card-overlay">
+        <div class="project-card-meta">
+          <span class="project-card-type">Residential</span>
+          <span class="project-card-year">· 2022</span>
+        </div>
+        <h3>Canyon Residence</h3>
+        <p class="project-card-location">Malibu, CA</p>
+      </div>
+      <div class="project-card-arrow">
+        <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5h12M8 1l4 4-4 4" stroke="#c8a97e" stroke-width="1.2"/></svg>
+      </div>
+    </a>
+
+    <!-- Project 5 -->
+    <a href="pages/project-atlas.html" class="project-card reveal">
+      <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=900&q=80" alt="Atlas Tower" loading="lazy"/>
+      <div class="project-card-overlay">
+        <div class="project-card-meta">
+          <span class="project-card-type">Commercial</span>
+          <span class="project-card-year">· 2022</span>
+        </div>
+        <h3>Atlas Tower</h3>
+        <p class="project-card-location">Chicago, IL</p>
+      </div>
+      <div class="project-card-arrow">
+        <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5h12M8 1l4 4-4 4" stroke="#c8a97e" stroke-width="1.2"/></svg>
+      </div>
+    </a>
+
+    <!-- Project 6 -->
+    <a href="pages/project-salon.html" class="project-card reveal reveal-delay-1">
+      <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471?w=900&q=80" alt="Salon Courtyard" loading="lazy"/>
+      <div class="project-card-overlay">
+        <div class="project-card-meta">
+          <span class="project-card-type">Hospitality</span>
+          <span class="project-card-year">· 2021</span>
+        </div>
+        <h3>Salon Courtyard</h3>
+        <p class="project-card-location">Barcelona, Spain</p>
+      </div>
+      <div class="project-card-arrow">
+        <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5h12M8 1l4 4-4 4" stroke="#c8a97e" stroke-width="1.2"/></svg>
+      </div>
+    </a>
+
+    <!-- Project 7 — wide -->
+    <a href="pages/project-arbor.html" class="project-card reveal">
+      <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1800&q=80" alt="Arbor Campus" loading="lazy"/>
+      <div class="project-card-overlay">
+        <div class="project-card-meta">
+          <span class="project-card-type">Higher Education</span>
+          <span class="project-card-year">· 2021</span>
+        </div>
+        <h3>Arbor Campus</h3>
+        <p class="project-card-location">Cambridge, MA</p>
+      </div>
+      <div class="project-card-arrow">
+        <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5h12M8 1l4 4-4 4" stroke="#c8a97e" stroke-width="1.2"/></svg>
+      </div>
+    </a>
+
+    <!-- Project 8 -->
+    <a href="pages/project-noma.html" class="project-card reveal">
+      <img src="https://images.unsplash.com/photo-1518733057094-95b53143d2a7?w=900&q=80" alt="Noma Studio" loading="lazy"/>
+      <div class="project-card-overlay">
+        <div class="project-card-meta">
+          <span class="project-card-type">Adaptive Reuse</span>
+          <span class="project-card-year">· 2020</span>
+        </div>
+        <h3>Noma Studio</h3>
+        <p class="project-card-location">Brooklyn, NY</p>
+      </div>
+      <div class="project-card-arrow">
+        <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5h12M8 1l4 4-4 4" stroke="#c8a97e" stroke-width="1.2"/></svg>
+      </div>
+    </a>
+
+    <!-- Project 9 -->
+    <a href="pages/project-solaris.html" class="project-card reveal reveal-delay-1">
+      <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1000&q=80" alt="Solaris Villa" loading="lazy"/>
+      <div class="project-card-overlay">
+        <div class="project-card-meta">
+          <span class="project-card-type">Residential</span>
+          <span class="project-card-year">· 2019</span>
+        </div>
+        <h3>Solaris Villa</h3>
+        <p class="project-card-location">Amalfi Coast, Italy</p>
+      </div>
+      <div class="project-card-arrow">
+        <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5h12M8 1l4 4-4 4" stroke="#c8a97e" stroke-width="1.2"/></svg>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- ABOUT STRIP -->
+<section id="about">
+  <div class="about-visual">
+    <img src="https://images.unsplash.com/photo-1481026469463-66327c86e544?w=900&q=80" alt="Studio Interior" loading="lazy"/>
+    <span class="about-visual-caption">Studio · New York, 2024</span>
+  </div>
+  <div class="about-content">
+    <p class="about-eyebrow reveal">The Practice</p>
+    <h2 class="about-title reveal reveal-delay-1">Built on<br><em>curiosity</em> and<br>craft</h2>
+    <p class="about-body reveal reveal-delay-2">Studio Forma is a New York–based architecture and design practice committed to thoughtful, rigorously designed built work. We engage projects at every scale — from intimate domestic spaces to civic institutions — with the same depth of inquiry.</p>
+    <div class="about-stats reveal reveal-delay-3">
+      <div>
+        <div class="stat-number">12</div>
+        <div class="stat-label">Years</div>
+      </div>
+      <div>
+        <div class="stat-number">80+</div>
+        <div class="stat-label">Projects</div>
+      </div>
+      <div>
+        <div class="stat-number">6</div>
+        <div class="stat-label">Countries</div>
+      </div>
+    </div>
+    <a href="pages/office.html" class="about-link reveal">
+      About the Studio
+      <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5h12M8 1l4 4-4 4" stroke="currentColor" stroke-width="1.2"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-brand-logo">
+        <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+          <line x1="5" y1="27" x2="16" y2="5" stroke="#c8a97e" stroke-width="1.2"/>
+          <line x1="16" y1="5" x2="27" y2="27" stroke="#c8a97e" stroke-width="1.2"/>
+          <line x1="9.5" y1="19" x2="22.5" y2="19" stroke="#c8a97e" stroke-width="1.2"/>
+        </svg>
+        <span class="footer-brand-name">Studio Forma</span>
+      </div>
+      <p class="footer-tagline">A national practice for architecture, interiors, and the built environment.</p>
+    </div>
+    <div>
+      <p class="footer-col-title">Navigation</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Portfolio</a></li>
+        <li><a href="pages/office.html">Office</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">Featured Projects</p>
+      <ul class="footer-links">
+        <li><a href="pages/project-verdana.html">Verdana House</a></li>
+        <li><a href="pages/project-meridian.html">Meridian Loft</a></li>
+        <li><a href="pages/project-canyon.html">Canyon Residence</a></li>
+        <li><a href="pages/project-arbor.html">Arbor Campus</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">Contact</p>
+      <div class="footer-contact-item">
+        <div>office@studioforma.com</div>
+        <div>+1 212 555 0192</div>
+        <div style="margin-top:0.5rem;">440 Lafayette Street<br>New York, NY 10003</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2025 Studio Forma Architecture. All Rights Reserved.</span>
+    <div class="footer-social">
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Dezeen</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
